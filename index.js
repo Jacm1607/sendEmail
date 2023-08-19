@@ -20,9 +20,9 @@ app.post('/api/send-email', async (req, res) => {
   const { to, subject, text } = req.body;
 
   const mailOptions = {
-    from: 'chavarriaj84@gmail.com',
-    to: 'chavarriaj84@gmail.com',
-    subject: 'HAUSCENTER',
+    from: 'ecommerce@hauscenter.com.bo',
+    to: 'ecommerce@hauscenter.com.bo',
+    subject: 'NUEVO PEDIDO HAUSCENTER',
     text: 'HAUSCENTER',
   };
 
